@@ -1,3 +1,5 @@
+-- Este es un cambio
+
 create database TiendaModerna;
 use TiendaModerna;
 
@@ -89,7 +91,6 @@ desc_promo decimal (3,2) not null,
 
 constraint "fk_venta" foreign key (id_venta) references Ventas(id_ventas),
 constraint "fk_empleado_det" foreign key (id_emp_det) references Cat_Empleados(id_emp)
-
 );
 
 
