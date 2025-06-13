@@ -1,0 +1,28 @@
+INSERT INTO Categoria (nombre_categoria) VALUES
+('Cereales'),
+('Lácteos'),
+('Enlatados'),
+('Limpieza'),
+('Higiene personal'),
+('Bebidas'),
+('Dulcería');
+
+INSERT INTO Presentacion (nombre_presentacion) VALUES
+('Caja'),
+('Botella'),
+('Lata'),
+('Bolsa'),
+('Barra'),
+('Tetra Pak');
+
+INSERT INTO Cat_Productos (nom_prod, cantidad_producto, id_cat_pro, id_pre_pro) VALUES
+('Cereal Choco Ricos 500g', 35, 1, 1),
+('Leche Alpura Deslactosada 1L', 20, 2, 2),
+('Sardinas El Marino 425g', 15, 3, 3),
+('Detergente Brillante 900g', 25, 4, 4),
+('Shampoo Head & Shoulders 700ml', 12, 5, 2),
+('Agua Mineral Topo Chico 600ml', 50, 6, 2),
+('Chocolate Carlos V 18g', 60, 7, 5),
+('Jugo Jumex Mango 1L', 28, 6, 6),
+('Papel Higiénico Suavel 4pzs', 18, 5, 1),
+('Atún Herdez en Aceite 140g', 30, 3, 3);
