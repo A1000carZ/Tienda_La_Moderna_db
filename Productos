@@ -48,3 +48,10 @@ insert into cat_Proveedores (nom_pro, tel_pro, email_pro) values
 ('Limpieza y Hogar', '5544556677', 'contacto@limpiezayhogar.mx'),
 ('Cuidado Personal S.A.', '5555667788', 'ventas@cuidado.personal.com'),
 ('Bebidas Naturales S.A.', '5566778899', 'info@bebidasnaturales.mx');
+
+insert into Cat_Empleados (nom_emp, apa_emp, ama_emp, sexo_emp, fecha_nac_emp) values
+('Juan', 'Pérez', 'López', 'M', '12-01-1990'),
+('María', 'García', 'Martínez', 'F', '14-06-1984'),
+('Carlos', 'Ramírez', 'Sánchez', 'M', '10-10-1989'),
+('Ana', 'Hernández', 'Gómez', 'F', '23-12-1993'),
+('Luis', 'Fernández', 'Rodríguez', 'M', '15-09-1983');
