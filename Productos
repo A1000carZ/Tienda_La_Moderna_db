@@ -40,3 +40,11 @@ INSERT INTO Ventas (id_cliente_venta, id_empleado_venta, fecha_venta) VALUES
 (3, 1, '12-06-2025'),
 (4, 1, '13-05-2025'),
 (5, 1, '13-06-2025');
+
+insert into cat_Proveedores (nom_pro, tel_pro, email_pro) values
+('Alimentos Saludables S.A.', '5511223344', 'contacto@alimentosaludables.com'),
+('Lácteos y Más', '5522334455', 'ventas@lacteosymas.mx'),
+('Conservas del Mar', '5533445566', 'info@conservasdelmar.com'),
+('Limpieza y Hogar', '5544556677', 'contacto@limpiezayhogar.mx'),
+('Cuidado Personal S.A.', '5555667788', 'ventas@cuidado.personal.com'),
+('Bebidas Naturales S.A.', '5566778899', 'info@bebidasnaturales.mx');
