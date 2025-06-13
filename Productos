@@ -26,3 +26,17 @@ INSERT INTO Cat_Productos (nom_prod, cantidad_producto, id_cat_pro, id_pre_pro) 
 ('Jugo Jumex Mango 1L', 28, 6, 6),
 ('Papel Higiénico Suavel 4pzs', 18, 5, 1),
 ('Atún Herdez en Aceite 140g', 30, 3, 3);
+
+INSERT INTO cat_Clientes (nom_cli, email_cli, tel_cli) VALUES
+('Luis Martínez', 'luis.mtz@gmail.com', '5522334455'),
+('Ana Pérez', 'ana.pz@gmail.com', '5544667788'),
+('Carlos Gómez', 'carlosg@gmail.com', '5588990011'),
+('María López', 'maria.lp@gmail.com', '5511223344'),
+('Fernanda Torres', 'fer.torres@gmail.com', '5577889900');
+
+INSERT INTO Ventas (id_cliente_venta, id_empleado_venta, fecha_venta) VALUES
+(1, 1, '13-06-2025'),
+(2, 1, '11-06-2025'),
+(3, 1, '12-06-2025'),
+(4, 1, '13-05-2025'),
+(5, 1, '13-06-2025');
